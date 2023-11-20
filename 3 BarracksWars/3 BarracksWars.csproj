@@ -12,8 +12,4 @@
     <None Include="P03_BarraksWars\P03_BarraksWars.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="P03_BarraksWars\Core\Commands\" />
-  </ItemGroup>
-
 </Project>
