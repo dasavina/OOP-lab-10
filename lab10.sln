@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 Harvesting Fields", "1 Harvesting Fields\1 Harvesting Fields.csproj", "{040DF299-0AEA-4CE1-B24F-96BF29A9F8D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 Black Box Integer", "2 Black Box Integer\2 Black Box Integer.csproj", "{F12A0977-F374-478C-8D33-9C88E91E5BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 Black Box Integer", "2 Black Box Integer\2 Black Box Integer.csproj", "{F12A0977-F374-478C-8D33-9C88E91E5BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 BarracksWars", "3 BarracksWars\3 BarracksWars.csproj", "{6FCA1654-DC65-4355-B557-4C95EF711780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F12A0977-F374-478C-8D33-9C88E91E5BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12A0977-F374-478C-8D33-9C88E91E5BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12A0977-F374-478C-8D33-9C88E91E5BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCA1654-DC65-4355-B557-4C95EF711780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCA1654-DC65-4355-B557-4C95EF711780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCA1654-DC65-4355-B557-4C95EF711780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCA1654-DC65-4355-B557-4C95EF711780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
