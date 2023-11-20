@@ -12,6 +12,8 @@
                     case "add":
                         {
 
+
+                            Console.WriteLine("added");
                         }
                         break;
                     case "report":
@@ -21,7 +23,7 @@
                         break;
                     default:
                         {
-
+                            Console.WriteLine("no such command");
                         }
                         break;
 
