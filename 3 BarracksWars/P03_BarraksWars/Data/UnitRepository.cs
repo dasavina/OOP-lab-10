@@ -42,6 +42,18 @@
 
         public void RemoveUnit(string unitType)
         {
+
+            if (!this.amountOfUnits.ContainsKey(unitType))
+            {
+                throw new ArgumentException($"Unit type '{unitType}' does not exist.");
+            }
+
+            if (this.amountOfUnits[unitType] == 0)
+            {
+                throw new ArgumentException($"There are no units of type '{unitType}' in the repository.");
+            }
+
+            this.amountOfUnits[unitType]--;
             //TODO: implement for Problem 4
             throw new NotImplementedException();
         }
